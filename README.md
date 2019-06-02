@@ -45,6 +45,8 @@ Don't convey the desired message, or even worse, can be misleading.
 </details>
 
 <details>
-  <summary>2) Project: </summary>
-  This <a href='https://github.com/marcellovictorino/DAND_4_Data_Wrangling/tree/master/2)%20Rotten%20Tomatoes%20Movie%20Score'> project</a> focus on <b>Data Gathering</b>, using <code>Beautiful Soup</code> to parse HTML files to extract Critics and Audience Rating; <code>Requests</code> library to access <i>url</i> and save data locally: both text and image (using <code>PIL.Image</code> and <code>io.BytesIO</code>) - storing text reviews from Roger Ebert website and Movie Poster images from MediaWiki. Lastly, all datasets are merged to generate rating visualizations and themed WordCloud based on movie review over the poster image.
+  <summary>2) Project: Ford Go Bike 2017-2019 </summary>
+  This is the Final Capstone <a href=''>Project</a> to complete the Data Analyst Nanodegree. It is an end-to-end data analysis project, going from the initial steps of data gathering and wrangling, progressing to a procedural Exploratory Data Analysis - investigating Uni, Bi and Multivariate relationship in order to extract meaningful insight - and finishing with polished visualizations to support telling a story.
+  The final product is a Jupyter Notebook Slide Deck, allowing to easily share the project main findings with an html file.  
+  
 </details>
