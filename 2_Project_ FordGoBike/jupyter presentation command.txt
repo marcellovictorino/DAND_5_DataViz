@@ -1,0 +1,9 @@
+This is the sequence of commands to be entered in the command line to convert a Jupyter Notebook into a Presentation (Slide Deck):
+
+	jupyter nbconvert "fileName.ipynb" --to slides --post serve --template output_toggle
+
+
+--to slides: convert to slide deck
+--post serve: automatically opens | Easy approach not requiring to specify localhost
+--template: point to the output_toggle template file :: allows to hide the code, but showing once clicked
+
