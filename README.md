@@ -46,7 +46,7 @@ Don't convey the desired message, or even worse, can be misleading.
 
 <details>
   <summary>2) Project: Ford Go Bike 2017-2019 </summary>
-  This is the Final Capstone <a href=''>Project</a> to complete the Data Analyst Nanodegree. It is an end-to-end data analysis project, going from the initial steps of data gathering and wrangling, progressing to a procedural Exploratory Data Analysis - investigating Uni, Bi and Multivariate relationship in order to extract meaningful insight - and finishing with polished visualizations to support telling a story.
+  This is the Final Capstone <a href='https://github.com/marcellovictorino/DAND_5_DataViz/tree/master/2_Project_%20FordGoBike'>Project</a> to complete the Data Analyst Nanodegree. It is an end-to-end data analysis project, going from the initial steps of data gathering and wrangling, progressing to a procedural Exploratory Data Analysis - investigating Uni, Bi and Multivariate relationship in order to extract meaningful insight - and finishing with polished visualizations to support telling a story.
   The final product is a Jupyter Notebook Slide Deck, allowing to easily share the project main findings with an html file.  
   
 </details>
