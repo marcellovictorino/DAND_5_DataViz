@@ -36,13 +36,20 @@ After dealing with data integrity issues, I transformed some variables into a mo
 After this process, the final dataset has over 3 million observations with 19 columns, containing information over the initial and final bike station, time of start of the trip, duration in minutes; as well as details over the user, such as gender, age, and member status (subscriber or not).
 
 
+## Main Findings
++ **Correlation**: after calculating the Person R for each pair of variables, it was not possible to identify any strong correlation between them;
 
++ **Short Trips**: even though most trips are taken by subscribers - who have access to unlimited 45-minutes trips - the vast majority are short, taking between 5 and 15 minutes;
 
-## Summary of Findings
++ **Commuting Pattern**: most bike-share systems in the world are vastly used by tourist as a cheap albeit good alternative to travel around and get to know the city they are visiting. But in this case, it is possible to identify a clear commuting pattern, with trips concentrated around 8am and 5pm;
 
-> Summarize all of your findings from your exploration here, whether you plan on bringing them into your explanatory presentation or not.
++ **Typical behavior for each type of user**: one would think that, since subscribers have access to unlimited 45-minutes trips, there would be many trips of longer duration. But in this case, it is possible to see that subscribers actually tend to use the system for commuting purposes, with the vast majority of trips taking place during weekdays, around 8am and 5pm.
 
 
 ## Key Insights for Presentation
 
-> Select one or two main threads from your exploration to polish up for your presentation. Note any changes in design from your exploration step here.
+Out of the four main insights identified during the EDA, I chose to focus the Explanatory Analysis on two, due to their relevance and counter-intuitive nature: **Usage Pattern** and **Typical behavior for each type of user**.
+
+For the first one, since I wanted to highlight the concentration of trips during specific hours of the day, I opted for a simple bar chart, where the bar height represent the proportion of trips and the x-axis had all 24 hours of the day in ascending order. I emphasized the **comparison aspect** of the analysis by using different colors to represent Weekday and Weekend data. 
+
+On the second one, I chose side-by-side plots where it would be easy to compare aspects of Subscribers versus Sporadic users. Since I wanted to display the distribution of a pair of numerical variables ([trip duration, hour] & [trip duration, age]), I first tried to implement a basic scatter plot. But since there were too many points overlapping each other, not even applying transparency or jittering improved. Hence I decided to implement the heatmap as a good alternative.
